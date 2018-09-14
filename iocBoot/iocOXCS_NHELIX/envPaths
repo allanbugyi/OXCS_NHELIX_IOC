@@ -1,6 +1,6 @@
 epicsEnvSet("ARCH","linux-x86_64")
-epicsEnvSet("IOC","iocOXCS700")
-epicsEnvSet("TOP","/usr/local/epics/apps/OXCS700")
+epicsEnvSet("IOC","iocOXCS_NHELIX")
+epicsEnvSet("TOP","/usr/local/epics/apps/OXCS_NHELIX")
 epicsEnvSet("SUPPORT","/usr/local/epics/synApps_5_8/support")
 epicsEnvSet("STREAM","/usr/local/epics/synApps_5_8/support/stream-2-6a")
 epicsEnvSet("ASYN","/usr/local/epics/synApps_5_8/support/asyn-4-26")

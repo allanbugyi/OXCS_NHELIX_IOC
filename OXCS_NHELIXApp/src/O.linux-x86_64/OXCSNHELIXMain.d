@@ -1,4 +1,4 @@
-OXCS700Main.o: ../OXCS700Main.cpp \
+OXCSNHELIXMain.o: ../OXCSNHELIXMain.cpp \
  /usr/local/epics/base/include/epicsExit.h \
  /usr/local/epics/base/include/shareLib.h \
  /usr/local/epics/base/include/epicsThread.h \

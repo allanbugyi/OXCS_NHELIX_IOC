@@ -1,5 +1,5 @@
 /* THIS IS A GENERATED FILE. DO NOT EDIT! */
-/* Generated from ../O.Common/OXCS700.dbd */
+/* Generated from ../O.Common/OXCS_NHELIX.dbd */
 
 #include <string.h>
 
@@ -482,7 +482,8 @@ epicsShareExtern void (*pvar_func_streamRegistrar)(void);
 epicsShareExtern void (*pvar_func_asynRegister)(void);
 epicsShareExtern void (*pvar_func_asynInterposeFlushRegister)(void);
 epicsShareExtern void (*pvar_func_asynInterposeEosRegister)(void);
-epicsShareExtern void (*pvar_func_drvAsynSerialPortRegisterCommands)(void);
+epicsShareExtern void (*pvar_func_drvAsynIPPortRegisterCommands)(void);
+epicsShareExtern void (*pvar_func_drvAsynIPServerPortRegisterCommands)(void);
 epicsShareExtern void (*pvar_func_subAveRegister)(void);
 epicsShareExtern void (*pvar_func_interpRegister)(void);
 epicsShareExtern void (*pvar_func_arrayTestRegister)(void);
@@ -541,9 +542,9 @@ static struct iocshVarDef vardefs[] = {
 	{NULL, iocshArgInt, NULL}
 };
 
-int OXCS700_registerRecordDeviceDriver(DBBASE *pbase)
+int OXCS_NHELIX_registerRecordDeviceDriver(DBBASE *pbase)
 {
-    const char *bldTop = "/usr/local/epics/apps/OXCS700";
+    const char *bldTop = "/usr/local/epics/apps/OXCS_NHELIX";
     const char *envTop = getenv("TOP");
 
     if (envTop && strcmp(envTop, bldTop)) {
@@ -565,7 +566,8 @@ int OXCS700_registerRecordDeviceDriver(DBBASE *pbase)
     (*pvar_func_asynRegister)();
     (*pvar_func_asynInterposeFlushRegister)();
     (*pvar_func_asynInterposeEosRegister)();
-    (*pvar_func_drvAsynSerialPortRegisterCommands)();
+    (*pvar_func_drvAsynIPPortRegisterCommands)();
+    (*pvar_func_drvAsynIPServerPortRegisterCommands)();
     (*pvar_func_subAveRegister)();
     (*pvar_func_interpRegister)();
     (*pvar_func_arrayTestRegister)();
@@ -581,10 +583,10 @@ static const iocshArg registerRecordDeviceDriverArg0 =
 static const iocshArg *registerRecordDeviceDriverArgs[1] =
                                             {&registerRecordDeviceDriverArg0};
 static const iocshFuncDef registerRecordDeviceDriverFuncDef =
-                {"OXCS700_registerRecordDeviceDriver",1,registerRecordDeviceDriverArgs};
+                {"OXCS_NHELIX_registerRecordDeviceDriver",1,registerRecordDeviceDriverArgs};
 static void registerRecordDeviceDriverCallFunc(const iocshArgBuf *)
 {
-    OXCS700_registerRecordDeviceDriver(*iocshPpdbbase);
+    OXCS_NHELIX_registerRecordDeviceDriver(*iocshPpdbbase);
 }
 
 } // extern "C"

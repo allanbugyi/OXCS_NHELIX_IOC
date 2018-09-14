@@ -11,8 +11,7 @@ include $(TOP)/configure/CONFIG
 # Create and install (or just install) into <top>/db
 # databases, templates, substitutions like this
 #DB += xxx.db
-DB += OXcommon700.db
-#DB += OXCS700.vdb
+DB += OXCS_NHELIX.db
 
 #----------------------------------------------------
 # If <anyname>.db template is not named <anyname>*.template add

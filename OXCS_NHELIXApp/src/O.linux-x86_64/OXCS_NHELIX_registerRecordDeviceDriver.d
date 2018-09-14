@@ -1,5 +1,5 @@
-OXCS700_registerRecordDeviceDriver.o: \
- OXCS700_registerRecordDeviceDriver.cpp \
+OXCS_NHELIX_registerRecordDeviceDriver.o: \
+ OXCS_NHELIX_registerRecordDeviceDriver.cpp \
  /usr/local/epics/base/include/epicsStdlib.h \
  /usr/local/epics/base/include/shareLib.h \
  /usr/local/epics/base/include/os/Linux/osdStrtod.h \
