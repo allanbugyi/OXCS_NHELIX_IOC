@@ -17,7 +17,7 @@ drvAsynIPPortConfigure("eth0", "10.0.9.51:4001", 0,0,0)
 #asynSetTraceIOMask("eth0", -1, 0x2)
 
 ## Load record instances
-dbLoadRecords("../../db/OXCS_NHELIX.db","P=CATERETE:, Q=OXCS_NHELIX, PORT=eth0")
+dbLoadRecords("../../db/OXCS_NHELIX.db","P=, Q=OXCS_NHELIX, PORT=eth0")
 
 iocInit()
 
