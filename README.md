@@ -8,7 +8,7 @@ Author: Allan S. B. Bugyi (allan.bugyi@lnls.br)
 
 Running the IOC
 ===============
-To establish communication with N-Helix you first need to run the following command: 'caput CATERETE:OXCS_NHELIX:DISABLE 0'
+To establish communication with N-Helix you first need to run the following command: 'caput OXCS_NHELIX:DISABLE 0'
 This will also enable sending commands to N-Helix. To disable communication and sending commands just change value '0' in above command to '1'.
 
 Variables of interest and commands
