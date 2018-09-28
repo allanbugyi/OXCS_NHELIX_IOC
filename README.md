@@ -36,32 +36,32 @@ Restart
 	caput OXCS_NHELIX:RESTART 1
 Ramp
 	First specify Ramp Rate and the target temperature for the ramp:
-		caput CATERETE:OXCS_NHELIX:RRATE <1-360 (K/hour)>
-		caput CATERETE:OXCS_NHELIX:RTEMP <20-320 (K)>
-		caput CATERETE:OXCS_NHELIX:RAMP 1
+		caput OXCS_NHELIX:RRATE <1-360 (K/hour)>
+		caput OXCS_NHELIX:RTEMP <20-320 (K)>
+		caput OXCS_NHELIX:RAMP 1
 Plat
 	First specify the duration time of the plat:
-		caput CATERETE:OXCS_NHELIX:PTIME <1-1440(24hrs) (min)>
-		caput CATERETE:OXCS_NHELIX:PLAT 1
+		caput OXCS_NHELIX:PTIME <1-1440(24hrs) (min)>
+		caput OXCS_NHELIX:PLAT 1
 		
 Hold
-		caput CATERETE:OXCS_NHELIX:HOLD 1
+		caput OXCS_NHELIX:HOLD 1
 Cool
 	First specify the target temperature to cool:
-		caput CATERETE:OXCS_NHELIX:CTEMP <2000-32000 (cK)>
-		caput CATERETE:OXCS_NHELIX:COOL 1
+		caput OXCS_NHELIX:CTEMP <2000-32000 (cK)>
+		caput OXCS_NHELIX:COOL 1
 End
-	caput CATERETE:OXCS_NHELIX:END 1
+	caput OXCS_NHELIX:END 1
 Purge
-	caput CATERETE:OXCS_NHELIX:PURGE 1
+	caput OXCS_NHELIX:PURGE 1
 Pause
-	caput CATERETE:OXCS_NHELIX:PAUSE 1
+	caput OXCS_NHELIX:PAUSE 1
 Resume
-	caput CATERETE:OXCS_NHELIX:RESUME 1
+	caput OXCS_NHELIX:RESUME 1
 Stop
-	caput CATERETE:OXCS_NHELIX:STOP 1
+	caput OXCS_NHELIX:STOP 1
 ForceHe
-	caput CATERETE:OXCS_NHELIX:FORCEHE 1
+	caput OXCS_NHELIX:FORCEHE 1
 
 Development
 ===========
